@@ -1,11 +1,68 @@
-<html>
+ <html>
 <head>
-<title>Панель навигации</title>
+<link src="my.css" rel="stylesheet">
 </head>
-<frameset cols=’150,*’> //создаем группу вертикальных рамок, первая шириной 
-150, а вторая определяется автоматически, т.е. займет все оставшееся место в 
-браузере;
-<frame src=’menu.html’ name=”f1”>// создаем рамку меню
-<frame src=”content.html” name = “f2”>// создаем рамку для загрузки страниц.
-</frameset>
+<body> <I"am color=red; font-size: 34px>
+<form>
+<!- - поля ввода - ->
+<input type =’text’ name=’first_name’ size=’30’>Имя<br>
+<input type =’text’ name=’last_name’ size=’30’>Фамилия<br>
+<input type =’text’ name=’birthday’ size=’5’ maxlength=’4’>Год рождения<br>
+<-- Поле пароля -->
+Введите пароль <input type=’password’ name=’pass’ size=’10’ 
+maxlength=’10’><br>
+<-- Поле загрузки файла -->
+Укажите путь к файлу: <br><input type=’file’ size=’17’>
+</form>
+  <form>
+<-- Группа переключателей -->
+<h2>Цвет фона страницы</h2>
+<br><input type=’radio’ name=’color’ value=’white’ checked >белый
+<br><input type=’radio’ name=’color’ value=’yellow’> желтый
+<br><input type=’radio’ name=’color’ value=’green’ >Зеленый
+<-- Группа Флажков -->
+<h2>Выберите фрукт</h2>
+<input type=’checkbox’ name=’fruit’ value=’pear’ checked >Груша
+<br><input type=’checkbox’ name=’ fruit1’ value=’peach’ >Персик
+39
+<br><input type=’checkbox’ name=’fruit2’ value=’apple’ >Яблоко<br>
+</form>
+
+<H2>Маркированный список</H2>
+<ul type=’circle’>
+<li>Яблоко</li>
+<li type=’disk’>Груша</li>
+<li>Слива</li>
+<li type=’square’>Вишня</li>
+<li>Черешня</li>
+</ul><H2>Многоуровневый список</H2>
+<ol>
+<li>Нумерованный</li>
+<ol>
+<li>Пункт 1</li>
+<li>Пункт 2</li>
+<li>Пункт 3</li>
+</ol>
+<li>Маркированный</li>
+<ul>
+<li>Первый вариант</li>
+<li>Второй вариант</li>
+<li>Третий вариант</li>
+</ul>
+</ol>
+Текст страницы 
+<font color=’#FF0000’></fon>
+<pre>
+Эта таблица создана при помощи знака табуляции
+Фамилия Имя Отчество Год рождения
+Иванов Иван Иванович 1985
+Петров Петр Петрович 1878
+</pre>
+<font color=’red’></font><p> 
+<A HREF=’https://rutube.ru/video/7d6544157e1b8b42fc9e8a6fbcb47abe/?r=wd’>’https://rutube.ru/video/7d6544157e1b8b42fc9e8a6fbcb47abe/?r=wd</A> - ссылка на ресурс в Интернет.
+  <p style="color: red; font-size: 18px;">Текст с красным цветом и размером шрифта 18px</p>
+  <A HREF=’INDEX2.HTML’ target=’_blank’>самостоятельная работа </A>
+<sup>конец.</sup></p>
+<img src="pngl.jpg">
+</body>
 </html>
